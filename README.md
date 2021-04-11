@@ -2,12 +2,17 @@ This is the source code from the [tutorial on the ReactJS.NET site](https://reac
 
 To run this, follow the instruction:
 
-```bash
+```javascript
+//checkout
+git clone https://github.com/azakharko/ReactDotNet.git
+
+cd src/
+
 // restore 
 dotnet restore
 
 // publish
-dotnet publish -c Release -o out
+dotnet publish -c Release -o out tutorial-code.csproj
 
 // run
 dotnet out/tutorial-code.dll
