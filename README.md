@@ -11,6 +11,9 @@ cd src/
 // restore 
 dotnet restore
 
+// build
+dotnet build tutorial-code.csproj 
+
 // publish
 dotnet publish -c Release -o out tutorial-code.csproj
 
