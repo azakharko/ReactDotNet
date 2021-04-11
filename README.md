@@ -10,5 +10,5 @@ dotnet restore
 dotnet publish -c Release -o out
 
 // run
-dotnet out/dotnet-sample-docker.dll
+dotnet out/tutorial-code.dll
 ```
